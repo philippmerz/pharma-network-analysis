@@ -1,4 +1,4 @@
-Processes SDC and PatentsView data to do basic analysis on whether number of ties of a pharma company positively influences patents output.
+Processes SDC and PatentsView data to do basic network analysis on whether number of ties of a pharma company positively influences patents output.
 
 ### Setup
 1. Add USPTO 2015-2021 to data/USPTO
