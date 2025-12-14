@@ -1,11 +1,7 @@
-# 02_build_network.R - Build alliance network and compute centrality metrics
+# Build alliance network and compute centrality metrics
 
 library(tidyverse)
 library(igraph)
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Load preprocessed data
-# ─────────────────────────────────────────────────────────────────────────────
 
 cat("Step 2: Network Construction\n")
 
@@ -18,10 +14,6 @@ patents_by_org_total <- data$patents_by_org_total
 patents_by_org_wide  <- data$patents_by_org_wide
 cwur_matches      <- data$cwur_matches
 config            <- data$config
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Create edge list from deals
-# ─────────────────────────────────────────────────────────────────────────────
 
 relevant_deals <- sdc_filtered %>%
   filter(participants %in% nodes$participants) %>%
@@ -55,10 +47,6 @@ edges_detailed <- edges %>%
     by = "deal_number"
   )
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Build graph and compute centrality
-# ─────────────────────────────────────────────────────────────────────────────
-
 g <- graph_from_data_frame(edges_weighted, directed = FALSE, vertices = nodes$participants)
 g <- simplify(g, remove.multiple = TRUE)
 
@@ -66,10 +54,6 @@ V(g)$degree           <- degree(g)
 V(g)$betweenness      <- betweenness(g, normalized = TRUE)
 V(g)$closeness        <- closeness(g, normalized = TRUE)
 V(g)$eigen_centrality <- eigen_centrality(g)$vector
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Enrich nodes with network metrics and patents
-# ─────────────────────────────────────────────────────────────────────────────
 
 nodes_enriched <- nodes %>%
   left_join(patents_by_org_total, by = "participants") %>%
@@ -87,10 +71,6 @@ nodes_enriched <- nodes %>%
     total_alliance_count = n_deals
   )
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Create panel data (org × year)
-# ─────────────────────────────────────────────────────────────────────────────
-
 panel <- expand_grid(
   participants = nodes$participants,
   year = config$patent_years
@@ -107,10 +87,6 @@ panel <- expand_grid(
     by = "participants"
   ) %>%
   mutate(patent_count = replace_na(patent_count, 0))
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Summary statistics
-# ─────────────────────────────────────────────────────────────────────────────
 
 summary_stats <- tibble(
   metric = c(
@@ -133,10 +109,6 @@ summary_stats <- tibble(
     sum(nodes_enriched$patent_count_total > 0)
   )
 )
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Export outputs
-# ─────────────────────────────────────────────────────────────────────────────
 
 output_dir <- config$output_dir
 

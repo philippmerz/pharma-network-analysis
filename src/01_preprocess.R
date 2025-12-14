@@ -1,14 +1,11 @@
-# 01_preprocess.R - Load and prepare alliance, patent, and ranking data
+# Load and prepare alliance, patent, and ranking data
 
 library(tidyverse)
 library(jsonlite)
 library(fuzzyjoin)
 library(stringdist)
 
-# ─────────────────────────────────────────────────────────────────────────────
 # Configuration
-# ─────────────────────────────────────────────────────────────────────────────
-
 config <- list(
   # Paths
   sdc_path        = "data/SDC_data_2021.rds",
@@ -44,10 +41,6 @@ if (!dir.exists(config$output_dir)) dir.create(config$output_dir)
 
 cat("Step 1: Data Preprocessing\n")
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Helper functions
-# ─────────────────────────────────────────────────────────────────────────────
-
 clean_org_name <- function(x) {
   x %>%
     str_to_upper() %>%
@@ -55,10 +48,6 @@ clean_org_name <- function(x) {
     str_replace_all("\\b(BV|NV|INC|LTD|AG|SA|GMBH|SAS|SARL|SPA|PLC|LLC|CORP|CO|COMPANY)\\b", " ") %>%
     str_squish()
 }
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Load raw data
-# ─────────────────────────────────────────────────────────────────────────────
 
 sdc_raw <- readRDS(config$sdc_path)
 sic_mapping <- fromJSON(config$sic_path)
@@ -74,10 +63,6 @@ uni_pattern <- regex(paste(c(
   "\\bkarolinska\\b", "\\bweizmann\\b", "\\bmit\\b"
 ), collapse = "|"), ignore_case = TRUE)
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Classify organizations and filter alliances
-# ─────────────────────────────────────────────────────────────────────────────
-
 sdc <- sdc_raw %>%
   mutate(
     year = as.integer(substr(date_announced, 1, 4)),
@@ -92,10 +77,6 @@ sdc_filtered <- sdc %>%
     year %in% config$alliance_years,
     status %in% c("Completed/Signed", "Pending", "Extended", "Renegotiated")
   )
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Identify sample groups
-# ─────────────────────────────────────────────────────────────────────────────
 
 pharma_target <- sdc_filtered %>%
   filter(is_pharma, participant_nation %in% config$pharma_countries)
@@ -186,10 +167,6 @@ if (config$match_control_by_deal_count) {
 
 pharma_no_uni <- pharma_no_uni %>% mutate(has_uni_ties = FALSE)
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Combine all nodes
-# ─────────────────────────────────────────────────────────────────────────────
-
 nodes <- bind_rows(
   pharma_with_uni %>% mutate(org_type = "pharma"),
   pharma_no_uni %>% mutate(org_type = "pharma"),
@@ -206,10 +183,7 @@ nodes <- bind_rows(
     name_clean = clean_org_name(participants)
   )
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Match universities to CWUR rankings (fuzzy)
-# ─────────────────────────────────────────────────────────────────────────────
-
+# Match universities to CWUR rankings
 cwur_raw <- read_csv(config$cwur_path, show_col_types = FALSE)
 
 cwur <- cwur_raw %>%
@@ -243,10 +217,7 @@ nodes <- nodes %>%
   left_join(cwur_matches, by = "participants") %>%
   mutate(is_top_university = !is.na(cwur_rank) & cwur_rank <= config$top_uni_rank)
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Load and process USPTO patent data
-# ─────────────────────────────────────────────────────────────────────────────
-
+# Load USPTO patent data
 read_uspto_year <- function(year) {
   path <- file.path(config$uspto_dir, paste0(year, ".csv"))
   if (!file.exists(path)) return(tibble())
@@ -270,10 +241,7 @@ patents_by_assignee_year <- uspto %>%
   group_by(assignee_clean, grant_year) %>%
   summarize(patent_count = n_distinct(patent_number), .groups = "drop")
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Match organizations to patents (fuzzy)
-# ─────────────────────────────────────────────────────────────────────────────
-
+# Match organizations to patents
 orgs_to_match <- nodes %>% 
   select(participants, name_clean) %>% 
   distinct()
@@ -306,10 +274,6 @@ patents_by_org_wide <- patents_by_org_year %>%
     names_prefix = "patents_", 
     values_fill = 0
   )
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Save intermediate data
-# ─────────────────────────────────────────────────────────────────────────────
 
 intermediate_data <- list(
   nodes              = nodes,

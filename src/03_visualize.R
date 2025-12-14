@@ -1,13 +1,9 @@
-# 03_visualize.R - Network visualization
+# Network visualization
 
 library(tidyverse)
 library(igraph)
 library(ggraph)
 library(tidygraph)
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Load network data
-# ─────────────────────────────────────────────────────────────────────────────
 
 cat("Step 3: Visualization\n")
 
@@ -16,10 +12,6 @@ data <- readRDS("Output/network_data.rds")
 g      <- data$graph
 nodes  <- data$nodes
 config <- data$config
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Configure node attributes
-# ─────────────────────────────────────────────────────────────────────────────
 
 V(g)$display_type  <- nodes$display_type[match(V(g)$name, nodes$participants)]
 V(g)$patent_count  <- nodes$patent_count_total[match(V(g)$name, nodes$participants)]
@@ -47,10 +39,6 @@ V(g)$node_size <- sapply(seq_along(V(g)), function(i) {
   }
 })
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Style definitions
-# ─────────────────────────────────────────────────────────────────────────────
-
 node_colors <- c(
   "Pharma WITH Uni Ties"    = "#27AE60",
   "Pharma WITHOUT Uni Ties" = "#E74C3C",
@@ -69,10 +57,6 @@ n_pharma_with    <- sum(nodes$display_type == "Pharma WITH Uni Ties")
 n_pharma_without <- sum(nodes$display_type == "Pharma WITHOUT Uni Ties")
 n_unis           <- sum(nodes$display_type == "University/Research")
 n_top_unis       <- sum(nodes$is_top_university, na.rm = TRUE)
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Build plot
-# ─────────────────────────────────────────────────────────────────────────────
 
 set.seed(42)
 g_tidy <- as_tbl_graph(g)
@@ -129,10 +113,6 @@ p <- ggraph(g_tidy, layout = "fr") +
     shape = guide_legend(order = 1, override.aes = list(size = 5)),
     size  = guide_legend(order = 2)
   )
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Save output
-# ─────────────────────────────────────────────────────────────────────────────
 
 print(p)
 
