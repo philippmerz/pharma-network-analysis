@@ -1,0 +1,1778 @@
+[
+  {
+    "SIC_Code": "100",
+    "Industry_Title": "AGRICULTURAL PRODUCTION-CROPS"
+  },
+  {
+    "SIC_Code": "200",
+    "Industry_Title": "AGRICULTURAL PROD-LIVESTOCK & ANIMAL SPECIALTIES"
+  },
+  {
+    "SIC_Code": "700",
+    "Industry_Title": "AGRICULTURAL SERVICES"
+  },
+  {
+    "SIC_Code": "800",
+    "Industry_Title": "FORESTRY"
+  },
+  {
+    "SIC_Code": "900",
+    "Industry_Title": "FISHING, HUNTING AND TRAPPING"
+  },
+  {
+    "SIC_Code": "1000",
+    "Industry_Title": "METAL MINING"
+  },
+  {
+    "SIC_Code": "1040",
+    "Industry_Title": "GOLD AND SILVER ORES"
+  },
+  {
+    "SIC_Code": "1090",
+    "Industry_Title": "MISCELLANEOUS METAL ORES"
+  },
+  {
+    "SIC_Code": "1220",
+    "Industry_Title": "BITUMINOUS COAL & LIGNITE MINING"
+  },
+  {
+    "SIC_Code": "1221",
+    "Industry_Title": "BITUMINOUS COAL & LIGNITE SURFACE MINING"
+  },
+  {
+    "SIC_Code": "1311",
+    "Industry_Title": "CRUDE PETROLEUM & NATURAL GAS"
+  },
+  {
+    "SIC_Code": "1381",
+    "Industry_Title": "DRILLING OIL & GAS WELLS"
+  },
+  {
+    "SIC_Code": "1382",
+    "Industry_Title": "OIL & GAS FIELD EXPLORATION SERVICES"
+  },
+  {
+    "SIC_Code": "1389",
+    "Industry_Title": "OIL & GAS FIELD SERVICES, NEC"
+  },
+  {
+    "SIC_Code": "1400",
+    "Industry_Title": "MINING & QUARRYING OF NONMETALLIC MINERALS (NO FUELS)"
+  },
+  {
+    "SIC_Code": "1520",
+    "Industry_Title": "GENERAL BLDG CONTRACTORS - RESIDENTIAL BLDGS"
+  },
+  {
+    "SIC_Code": "1531",
+    "Industry_Title": "OPERATIVE BUILDERS"
+  },
+  {
+    "SIC_Code": "1540",
+    "Industry_Title": "GENERAL BLDG CONTRACTORS - NONRESIDENTIAL BLDGS"
+  },
+  {
+    "SIC_Code": "1600",
+    "Industry_Title": "HEAVY CONSTRUCTION OTHER THAN BLDG CONST - CONTRACTORS"
+  },
+  {
+    "SIC_Code": "1623",
+    "Industry_Title": "WATER, SEWER, PIPELINE, COMM & POWER LINE CONSTRUCTION"
+  },
+  {
+    "SIC_Code": "1700",
+    "Industry_Title": "CONSTRUCTION - SPECIAL TRADE CONTRACTORS"
+  },
+  {
+    "SIC_Code": "1731",
+    "Industry_Title": "ELECTRICAL WORK"
+  },
+  {
+    "SIC_Code": "2000",
+    "Industry_Title": "FOOD AND KINDRED PRODUCTS"
+  },
+  {
+    "SIC_Code": "2011",
+    "Industry_Title": "MEAT PACKING PLANTS"
+  },
+  {
+    "SIC_Code": "2013",
+    "Industry_Title": "SAUSAGES & OTHER PREPARED MEAT PRODUCTS"
+  },
+  {
+    "SIC_Code": "2015",
+    "Industry_Title": "POULTRY SLAUGHTERING AND PROCESSING"
+  },
+  {
+    "SIC_Code": "2020",
+    "Industry_Title": "DAIRY PRODUCTS"
+  },
+  {
+    "SIC_Code": "2024",
+    "Industry_Title": "ICE CREAM & FROZEN DESSERTS"
+  },
+  {
+    "SIC_Code": "2030",
+    "Industry_Title": "CANNED, FROZEN & PRESERVD FRUIT, VEG & FOOD SPECIALTIES"
+  },
+  {
+    "SIC_Code": "2033",
+    "Industry_Title": "CANNED, FRUITS, VEG, PRESERVES, JAMS & JELLIES"
+  },
+  {
+    "SIC_Code": "2040",
+    "Industry_Title": "GRAIN MILL PRODUCTS"
+  },
+  {
+    "SIC_Code": "2050",
+    "Industry_Title": "BAKERY PRODUCTS"
+  },
+  {
+    "SIC_Code": "2052",
+    "Industry_Title": "COOKIES & CRACKERS"
+  },
+  {
+    "SIC_Code": "2060",
+    "Industry_Title": "SUGAR & CONFECTIONERY PRODUCTS"
+  },
+  {
+    "SIC_Code": "2070",
+    "Industry_Title": "FATS & OILS"
+  },
+  {
+    "SIC_Code": "2080",
+    "Industry_Title": "BEVERAGES"
+  },
+  {
+    "SIC_Code": "2082",
+    "Industry_Title": "MALT BEVERAGES"
+  },
+  {
+    "SIC_Code": "2086",
+    "Industry_Title": "BOTTLED & CANNED SOFT DRINKS & CARBONATED WATERS"
+  },
+  {
+    "SIC_Code": "2090",
+    "Industry_Title": "MISCELLANEOUS FOOD PREPARATIONS & KINDRED PRODUCTS"
+  },
+  {
+    "SIC_Code": "2092",
+    "Industry_Title": "PREPARED FRESH OR FROZEN FISH & SEAFOODS"
+  },
+  {
+    "SIC_Code": "2100",
+    "Industry_Title": "TOBACCO PRODUCTS"
+  },
+  {
+    "SIC_Code": "2111",
+    "Industry_Title": "CIGARETTES"
+  },
+  {
+    "SIC_Code": "2200",
+    "Industry_Title": "TEXTILE MILL PRODUCTS"
+  },
+  {
+    "SIC_Code": "2211",
+    "Industry_Title": "BROADWOVEN FABRIC MILLS, COTTON"
+  },
+  {
+    "SIC_Code": "2221",
+    "Industry_Title": "BROADWOVEN FABRIC MILLS, MAN MADE FIBER & SILK"
+  },
+  {
+    "SIC_Code": "2250",
+    "Industry_Title": "KNITTING MILLS"
+  },
+  {
+    "SIC_Code": "2253",
+    "Industry_Title": "KNIT OUTERWEAR MILLS"
+  },
+  {
+    "SIC_Code": "2273",
+    "Industry_Title": "CARPETS & RUGS"
+  },
+  {
+    "SIC_Code": "2300",
+    "Industry_Title": "APPAREL & OTHER FINISHD PRODS OF FABRICS & SIMILAR MATL"
+  },
+  {
+    "SIC_Code": "2320",
+    "Industry_Title": "MEN'S & BOYS' FURNISHGS, WORK CLOTHG, & ALLIED GARMENTS"
+  },
+  {
+    "SIC_Code": "2330",
+    "Industry_Title": "WOMEN'S, MISSES', AND JUNIORS OUTERWEAR"
+  },
+  {
+    "SIC_Code": "2340",
+    "Industry_Title": "WOMEN'S, MISSES', CHILDREN'S & INFANTS' UNDERGARMENTS"
+  },
+  {
+    "SIC_Code": "2390",
+    "Industry_Title": "MISCELLANEOUS FABRICATED TEXTILE PRODUCTS"
+  },
+  {
+    "SIC_Code": "2400",
+    "Industry_Title": "LUMBER & WOOD PRODUCTS (NO FURNITURE)"
+  },
+  {
+    "SIC_Code": "2421",
+    "Industry_Title": "SAWMILLS & PLANTING MILLS, GENERAL"
+  },
+  {
+    "SIC_Code": "2430",
+    "Industry_Title": "MILLWOOD, VENEER, PLYWOOD, & STRUCTURAL WOOD MEMBERS"
+  },
+  {
+    "SIC_Code": "2451",
+    "Industry_Title": "MOBILE HOMES"
+  },
+  {
+    "SIC_Code": "2452",
+    "Industry_Title": "PREFABRICATED WOOD BLDGS & COMPONENTS"
+  },
+  {
+    "SIC_Code": "2510",
+    "Industry_Title": "HOUSEHOLD FURNITURE"
+  },
+  {
+    "SIC_Code": "2511",
+    "Industry_Title": "WOOD HOUSEHOLD FURNITURE, (NO UPHOLSTERED)"
+  },
+  {
+    "SIC_Code": "2520",
+    "Industry_Title": "OFFICE FURNITURE"
+  },
+  {
+    "SIC_Code": "2522",
+    "Industry_Title": "OFFICE FURNITURE (NO WOOD)"
+  },
+  {
+    "SIC_Code": "2531",
+    "Industry_Title": "PUBLIC BLDG & RELATED FURNITURE"
+  },
+  {
+    "SIC_Code": "2540",
+    "Industry_Title": "PARTITIONS, SHELVG, LOCKERS, & OFFICE & STORE FIXTURES"
+  },
+  {
+    "SIC_Code": "2590",
+    "Industry_Title": "MISCELLANEOUS FURNITURE & FIXTURES"
+  },
+  {
+    "SIC_Code": "2600",
+    "Industry_Title": "PAPERS & ALLIED PRODUCTS"
+  },
+  {
+    "SIC_Code": "2611",
+    "Industry_Title": "PULP MILLS"
+  },
+  {
+    "SIC_Code": "2621",
+    "Industry_Title": "PAPER MILLS"
+  },
+  {
+    "SIC_Code": "2631",
+    "Industry_Title": "PAPERBOARD MILLS"
+  },
+  {
+    "SIC_Code": "2650",
+    "Industry_Title": "PAPERBOARD CONTAINERS & BOXES"
+  },
+  {
+    "SIC_Code": "2670",
+    "Industry_Title": "CONVERTED PAPER & PAPERBOARD PRODS (NO CONTANERS/BOXES)"
+  },
+  {
+    "SIC_Code": "2673",
+    "Industry_Title": "PLASTICS, FOIL & COATED PAPER BAGS"
+  },
+  {
+    "SIC_Code": "2711",
+    "Industry_Title": "NEWSPAPERS: PUBLISHING OR PUBLISHING & PRINTING"
+  },
+  {
+    "SIC_Code": "2721",
+    "Industry_Title": "PERIODICALS: PUBLISHING OR PUBLISHING & PRINTING"
+  },
+  {
+    "SIC_Code": "2731",
+    "Industry_Title": "BOOKS: PUBLISHING OR PUBLISHING & PRINTING"
+  },
+  {
+    "SIC_Code": "2732",
+    "Industry_Title": "BOOK PRINTING"
+  },
+  {
+    "SIC_Code": "2741",
+    "Industry_Title": "MISCELLANEOUS PUBLISHING"
+  },
+  {
+    "SIC_Code": "2750",
+    "Industry_Title": "COMMERCIAL PRINTING"
+  },
+  {
+    "SIC_Code": "2761",
+    "Industry_Title": "MANIFOLD BUSINESS FORMS"
+  },
+  {
+    "SIC_Code": "2771",
+    "Industry_Title": "GREETING CARDS"
+  },
+  {
+    "SIC_Code": "2780",
+    "Industry_Title": "BLANKBOOKS, LOOSELEAF BINDERS & BOOKBINDG & RELATD WORK"
+  },
+  {
+    "SIC_Code": "2790",
+    "Industry_Title": "SERVICE INDUSTRIES FOR THE PRINTING TRADE"
+  },
+  {
+    "SIC_Code": "2800",
+    "Industry_Title": "CHEMICALS & ALLIED PRODUCTS"
+  },
+  {
+    "SIC_Code": "2810",
+    "Industry_Title": "INDUSTRIAL INORGANIC CHEMICALS"
+  },
+  {
+    "SIC_Code": "2820",
+    "Industry_Title": "PLASTIC MATERIAL, SYNTH RESIN/RUBBER, CELLULOS (NO GLASS)"
+  },
+  {
+    "SIC_Code": "2821",
+    "Industry_Title": "PLASTIC MATERIALS, SYNTH RESINS & NONVULCAN ELASTOMERS"
+  },
+  {
+    "SIC_Code": "2833",
+    "Industry_Title": "MEDICINAL CHEMICALS & BOTANICAL PRODUCTS"
+  },
+  {
+    "SIC_Code": "2834",
+    "Industry_Title": "PHARMACEUTICAL PREPARATIONS"
+  },
+  {
+    "SIC_Code": "2835",
+    "Industry_Title": "IN VITRO & IN VIVO DIAGNOSTIC SUBSTANCES"
+  },
+  {
+    "SIC_Code": "2836",
+    "Industry_Title": "BIOLOGICAL PRODUCTS, (NO DISGNOSTIC SUBSTANCES)"
+  },
+  {
+    "SIC_Code": "2840",
+    "Industry_Title": "SOAP, DETERGENTS, CLEANG PREPARATIONS, PERFUMES, COSMETICS"
+  },
+  {
+    "SIC_Code": "2842",
+    "Industry_Title": "SPECIALTY CLEANING, POLISHING AND SANITATION PREPARATIONS"
+  },
+  {
+    "SIC_Code": "2844",
+    "Industry_Title": "PERFUMES, COSMETICS & OTHER TOILET PREPARATIONS"
+  },
+  {
+    "SIC_Code": "2851",
+    "Industry_Title": "PAINTS, VARNISHES, LACQUERS, ENAMELS & ALLIED PRODS"
+  },
+  {
+    "SIC_Code": "2860",
+    "Industry_Title": "INDUSTRIAL ORGANIC CHEMICALS"
+  },
+  {
+    "SIC_Code": "2870",
+    "Industry_Title": "AGRICULTURAL CHEMICALS"
+  },
+  {
+    "SIC_Code": "2890",
+    "Industry_Title": "MISCELLANEOUS CHEMICAL PRODUCTS"
+  },
+  {
+    "SIC_Code": "2891",
+    "Industry_Title": "ADHESIVES & SEALANTS"
+  },
+  {
+    "SIC_Code": "2911",
+    "Industry_Title": "PETROLEUM REFINING"
+  },
+  {
+    "SIC_Code": "2950",
+    "Industry_Title": "ASPHALT PAVING & ROOFING MATERIALS"
+  },
+  {
+    "SIC_Code": "2990",
+    "Industry_Title": "MISCELLANEOUS PRODUCTS OF PETROLEUM & COAL"
+  },
+  {
+    "SIC_Code": "3011",
+    "Industry_Title": "TIRES & INNER TUBES"
+  },
+  {
+    "SIC_Code": "3021",
+    "Industry_Title": "RUBBER & PLASTICS FOOTWEAR"
+  },
+  {
+    "SIC_Code": "3050",
+    "Industry_Title": "GASKETS, PACKG & SEALG DEVICES & RUBBER & PLASTICS HOSE"
+  },
+  {
+    "SIC_Code": "3060",
+    "Industry_Title": "FABRICATED RUBBER PRODUCTS, NEC"
+  },
+  {
+    "SIC_Code": "3080",
+    "Industry_Title": "MISCELLANEOUS PLASTICS PRODUCTS"
+  },
+  {
+    "SIC_Code": "3081",
+    "Industry_Title": "UNSUPPORTED PLASTICS FILM & SHEET"
+  },
+  {
+    "SIC_Code": "3086",
+    "Industry_Title": "PLASTICS FOAM PRODUCTS"
+  },
+  {
+    "SIC_Code": "3089",
+    "Industry_Title": "PLASTICS PRODUCTS, NEC"
+  },
+  {
+    "SIC_Code": "3100",
+    "Industry_Title": "LEATHER & LEATHER PRODUCTS"
+  },
+  {
+    "SIC_Code": "3140",
+    "Industry_Title": "FOOTWEAR, (NO RUBBER)"
+  },
+  {
+    "SIC_Code": "3211",
+    "Industry_Title": "FLAT GLASS"
+  },
+  {
+    "SIC_Code": "3220",
+    "Industry_Title": "GLASS & GLASSWARE, PRESSED OR BLOWN"
+  },
+  {
+    "SIC_Code": "3221",
+    "Industry_Title": "GLASS CONTAINERS"
+  },
+  {
+    "SIC_Code": "3231",
+    "Industry_Title": "GLASS PRODUCTS, MADE OF PURCHASED GLASS"
+  },
+  {
+    "SIC_Code": "3241",
+    "Industry_Title": "CEMENT, HYDRAULIC"
+  },
+  {
+    "SIC_Code": "3250",
+    "Industry_Title": "STRUCTURAL CLAY PRODUCTS"
+  },
+  {
+    "SIC_Code": "3260",
+    "Industry_Title": "POTTERY & RELATED PRODUCTS"
+  },
+  {
+    "SIC_Code": "3270",
+    "Industry_Title": "CONCRETE, GYPSUM & PLASTER PRODUCTS"
+  },
+  {
+    "SIC_Code": "3272",
+    "Industry_Title": "CONCRETE PRODUCTS, EXCEPT BLOCK & BRICK"
+  },
+  {
+    "SIC_Code": "3281",
+    "Industry_Title": "CUT STONE & STONE PRODUCTS"
+  },
+  {
+    "SIC_Code": "3290",
+    "Industry_Title": "ABRASIVE, ASBESTOS & MISC NONMETALLIC MINERAL PRODS"
+  },
+  {
+    "SIC_Code": "3310",
+    "Industry_Title": "STEEL WORKS, BLAST FURNACES & ROLLING & FINISHING MILLS"
+  },
+  {
+    "SIC_Code": "3312",
+    "Industry_Title": "STEEL WORKS, BLAST FURNACES & ROLLING MILLS (COKE OVENS)"
+  },
+  {
+    "SIC_Code": "3317",
+    "Industry_Title": "STEEL PIPE & TUBES"
+  },
+  {
+    "SIC_Code": "3320",
+    "Industry_Title": "IRON & STEEL FOUNDRIES"
+  },
+  {
+    "SIC_Code": "3330",
+    "Industry_Title": "PRIMARY SMELTING & REFINING OF NONFERROUS METALS"
+  },
+  {
+    "SIC_Code": "3334",
+    "Industry_Title": "PRIMARY PRODUCTION OF ALUMINUM"
+  },
+  {
+    "SIC_Code": "3341",
+    "Industry_Title": "SECONDARY SMELTING & REFINING OF NONFERROUS METALS"
+  },
+  {
+    "SIC_Code": "3350",
+    "Industry_Title": "ROLLING DRAWING & EXTRUDING OF NONFERROUS METALS"
+  },
+  {
+    "SIC_Code": "3357",
+    "Industry_Title": "DRAWING & INSULATING OF NONFERROUS WIRE"
+  },
+  {
+    "SIC_Code": "3360",
+    "Industry_Title": "NONFERROUS FOUNDRIES (CASTINGS)"
+  },
+  {
+    "SIC_Code": "3390",
+    "Industry_Title": "MISCELLANEOUS PRIMARY METAL PRODUCTS"
+  },
+  {
+    "SIC_Code": "3411",
+    "Industry_Title": "METAL CANS"
+  },
+  {
+    "SIC_Code": "3412",
+    "Industry_Title": "METAL SHIPPING BARRELS, DRUMS, KEGS & PAILS"
+  },
+  {
+    "SIC_Code": "3420",
+    "Industry_Title": "CUTLERY, HANDTOOLS & GENERAL HARDWARE"
+  },
+  {
+    "SIC_Code": "3430",
+    "Industry_Title": "HEATING EQUIP, EXCEPT ELEC & WARM AIR; & PLUMBING FIXTURES"
+  },
+  {
+    "SIC_Code": "3433",
+    "Industry_Title": "HEATING EQUIPMENT, EXCEPT ELECTRIC & WARM AIR FURNACES"
+  },
+  {
+    "SIC_Code": "3440",
+    "Industry_Title": "FABRICATED STRUCTURAL METAL PRODUCTS"
+  },
+  {
+    "SIC_Code": "3442",
+    "Industry_Title": "METAL DOORS, SASH, FRAMES, MOLDINGS & TRIM"
+  },
+  {
+    "SIC_Code": "3443",
+    "Industry_Title": "FABRICATED PLATE WORK (BOILER SHOPS)"
+  },
+  {
+    "SIC_Code": "3444",
+    "Industry_Title": "SHEET METAL WORK"
+  },
+  {
+    "SIC_Code": "3448",
+    "Industry_Title": "PREFABRICATED METAL BUILDINGS & COMPONENTS"
+  },
+  {
+    "SIC_Code": "3451",
+    "Industry_Title": "SCREW MACHINE PRODUCTS"
+  },
+  {
+    "SIC_Code": "3452",
+    "Industry_Title": "BOLTS, NUTS, SCREWS, RIVETS & WASHERS"
+  },
+  {
+    "SIC_Code": "3460",
+    "Industry_Title": "METAL FORGINGS & STAMPINGS"
+  },
+  {
+    "SIC_Code": "3470",
+    "Industry_Title": "COATING, ENGRAVING & ALLIED SERVICES"
+  },
+  {
+    "SIC_Code": "3480",
+    "Industry_Title": "ORDNANCE & ACCESSORIES, (NO VEHICLES/GUIDED MISSILES)"
+  },
+  {
+    "SIC_Code": "3490",
+    "Industry_Title": "MISCELLANEOUS FABRICATED METAL PRODUCTS"
+  },
+  {
+    "SIC_Code": "3510",
+    "Industry_Title": "ENGINES & TURBINES"
+  },
+  {
+    "SIC_Code": "3523",
+    "Industry_Title": "FARM MACHINERY & EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3524",
+    "Industry_Title": "LAWN & GARDEN TRACTORS & HOME LAWN & GARDENS EQUIP"
+  },
+  {
+    "SIC_Code": "3530",
+    "Industry_Title": "CONSTRUCTION, MINING & MATERIALS HANDLING MACHINERY & EQUIP"
+  },
+  {
+    "SIC_Code": "3531",
+    "Industry_Title": "CONSTRUCTION MACHINERY & EQUIP"
+  },
+  {
+    "SIC_Code": "3532",
+    "Industry_Title": "MINING MACHINERY & EQUIP (NO OIL & GAS FIELD MACH & EQUIP)"
+  },
+  {
+    "SIC_Code": "3533",
+    "Industry_Title": "OIL & GAS FIELD MACHINERY & EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3537",
+    "Industry_Title": "INDUSTRIAL TRUCKS, TRACTORS, TRAILORS & STACKERS"
+  },
+  {
+    "SIC_Code": "3540",
+    "Industry_Title": "METALWORKG MACHINERY & EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3541",
+    "Industry_Title": "MACHINE TOOLS, METAL CUTTING TYPES"
+  },
+  {
+    "SIC_Code": "3550",
+    "Industry_Title": "SPECIAL INDUSTRY MACHINERY (NO METALWORKING MACHINERY)"
+  },
+  {
+    "SIC_Code": "3555",
+    "Industry_Title": "PRINTING TRADES MACHINERY & EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3559",
+    "Industry_Title": "SPECIAL INDUSTRY MACHINERY, NEC"
+  },
+  {
+    "SIC_Code": "3560",
+    "Industry_Title": "GENERAL INDUSTRIAL MACHINERY & EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3561",
+    "Industry_Title": "PUMPS & PUMPING EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3562",
+    "Industry_Title": "BALL & ROLLER BEARINGS"
+  },
+  {
+    "SIC_Code": "3564",
+    "Industry_Title": "INDUSTRIAL & COMMERCIAL FANS & BLOWERS & AIR PURIFING EQUIP"
+  },
+  {
+    "SIC_Code": "3567",
+    "Industry_Title": "INDUSTRIAL PROCESS FURNACES & OVENS"
+  },
+  {
+    "SIC_Code": "3569",
+    "Industry_Title": "GENERAL INDUSTRIAL MACHINERY & EQUIPMENT, NEC"
+  },
+  {
+    "SIC_Code": "3570",
+    "Industry_Title": "COMPUTER & OFFICE EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3571",
+    "Industry_Title": "ELECTRONIC COMPUTERS"
+  },
+  {
+    "SIC_Code": "3572",
+    "Industry_Title": "COMPUTER STORAGE DEVICES"
+  },
+  {
+    "SIC_Code": "3575",
+    "Industry_Title": "COMPUTER TERMINALS"
+  },
+  {
+    "SIC_Code": "3576",
+    "Industry_Title": "COMPUTER COMMUNICATIONS EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3577",
+    "Industry_Title": "COMPUTER PERIPHERAL EQUIPMENT, NEC"
+  },
+  {
+    "SIC_Code": "3578",
+    "Industry_Title": "CALCULATING & ACCOUNTING MACHINES (NO ELECTRONIC COMPUTERS)"
+  },
+  {
+    "SIC_Code": "3579",
+    "Industry_Title": "OFFICE MACHINES, NEC"
+  },
+  {
+    "SIC_Code": "3580",
+    "Industry_Title": "REFRIGERATION & SERVICE INDUSTRY MACHINERY"
+  },
+  {
+    "SIC_Code": "3585",
+    "Industry_Title": "AIR-COND & WARM AIR HEATG EQUIP & COMM & INDL REFRIG EQUIP"
+  },
+  {
+    "SIC_Code": "3590",
+    "Industry_Title": "MISC INDUSTRIAL & COMMERCIAL MACHINERY & EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3600",
+    "Industry_Title": "ELECTRONIC & OTHER ELECTRICAL EQUIPMENT (NO COMPUTER EQUIP)"
+  },
+  {
+    "SIC_Code": "3612",
+    "Industry_Title": "POWER, DISTRIBUTION & SPECIALTY TRANSFORMERS"
+  },
+  {
+    "SIC_Code": "3613",
+    "Industry_Title": "SWITCHGEAR & SWITCHBOARD APPARATUS"
+  },
+  {
+    "SIC_Code": "3620",
+    "Industry_Title": "ELECTRICAL INDUSTRIAL APPARATUS"
+  },
+  {
+    "SIC_Code": "3621",
+    "Industry_Title": "MOTORS & GENERATORS"
+  },
+  {
+    "SIC_Code": "3630",
+    "Industry_Title": "HOUSEHOLD APPLIANCES"
+  },
+  {
+    "SIC_Code": "3634",
+    "Industry_Title": "ELECTRIC HOUSEWARES & FANS"
+  },
+  {
+    "SIC_Code": "3640",
+    "Industry_Title": "ELECTRIC LIGHTING & WIRING EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3651",
+    "Industry_Title": "HOUSEHOLD AUDIO & VIDEO EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3652",
+    "Industry_Title": "PHONOGRAPH RECORDS & PRERECORDED AUDIO TAPES & DISKS"
+  },
+  {
+    "SIC_Code": "3661",
+    "Industry_Title": "TELEPHONE & TELEGRAPH APPARATUS"
+  },
+  {
+    "SIC_Code": "3663",
+    "Industry_Title": "RADIO & TV BROADCASTING & COMMUNICATIONS EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3669",
+    "Industry_Title": "COMMUNICATIONS EQUIPMENT, NEC"
+  },
+  {
+    "SIC_Code": "3670",
+    "Industry_Title": "ELECTRONIC COMPONENTS & ACCESSORIES"
+  },
+  {
+    "SIC_Code": "3672",
+    "Industry_Title": "PRINTED CIRCUIT BOARDS"
+  },
+  {
+    "SIC_Code": "3674",
+    "Industry_Title": "SEMICONDUCTORS & RELATED DEVICES"
+  },
+  {
+    "SIC_Code": "3677",
+    "Industry_Title": "ELECTRONIC COILS, TRANSFORMERS & OTHER INDUCTORS"
+  },
+  {
+    "SIC_Code": "3678",
+    "Industry_Title": "ELECTRONIC CONNECTORS"
+  },
+  {
+    "SIC_Code": "3679",
+    "Industry_Title": "ELECTRONIC COMPONENTS, NEC"
+  },
+  {
+    "SIC_Code": "3690",
+    "Industry_Title": "MISCELLANEOUS ELECTRICAL MACHINERY, EQUIPMENT & SUPPLIES"
+  },
+  {
+    "SIC_Code": "3695",
+    "Industry_Title": "MAGNETIC & OPTICAL RECORDING MEDIA"
+  },
+  {
+    "SIC_Code": "3711",
+    "Industry_Title": "MOTOR VEHICLES & PASSENGER CAR BODIES"
+  },
+  {
+    "SIC_Code": "3713",
+    "Industry_Title": "TRUCK & BUS BODIES"
+  },
+  {
+    "SIC_Code": "3714",
+    "Industry_Title": "MOTOR VEHICLE PARTS & ACCESSORIES"
+  },
+  {
+    "SIC_Code": "3715",
+    "Industry_Title": "TRUCK TRAILERS"
+  },
+  {
+    "SIC_Code": "3716",
+    "Industry_Title": "MOTOR HOMES"
+  },
+  {
+    "SIC_Code": "3720",
+    "Industry_Title": "AIRCRAFT & PARTS"
+  },
+  {
+    "SIC_Code": "3721",
+    "Industry_Title": "AIRCRAFT"
+  },
+  {
+    "SIC_Code": "3724",
+    "Industry_Title": "AIRCRAFT ENGINES & ENGINE PARTS"
+  },
+  {
+    "SIC_Code": "3728",
+    "Industry_Title": "AIRCRAFT PARTS & AUXILIARY EQUIPMENT, NEC"
+  },
+  {
+    "SIC_Code": "3730",
+    "Industry_Title": "SHIP & BOAT BUILDING & REPAIRING"
+  },
+  {
+    "SIC_Code": "3743",
+    "Industry_Title": "RAILROAD EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3751",
+    "Industry_Title": "MOTORCYCLES, BICYCLES & PARTS"
+  },
+  {
+    "SIC_Code": "3760",
+    "Industry_Title": "GUIDED MISSILES & SPACE VEHICLES & PARTS"
+  },
+  {
+    "SIC_Code": "3790",
+    "Industry_Title": "MISCELLANEOUS TRANSPORTATION EQUIPMENT"
+  },
+  {
+    "SIC_Code": "3812",
+    "Industry_Title": "SEARCH, DETECTION, NAVAGATION, GUIDANCE, AERONAUTICAL SYS"
+  },
+  {
+    "SIC_Code": "3821",
+    "Industry_Title": "LABORATORY APPARATUS & FURNITURE"
+  },
+  {
+    "SIC_Code": "3822",
+    "Industry_Title": "AUTO CONTROLS FOR REGULATING RESIDENTIAL & COMML ENVIRONMENTS"
+  },
+  {
+    "SIC_Code": "3823",
+    "Industry_Title": "INDUSTRIAL INSTRUMENTS FOR MEASUREMENT, DISPLAY, AND CONTROL"
+  },
+  {
+    "SIC_Code": "3824",
+    "Industry_Title": "TOTALIZING FLUID METERS & COUNTING DEVICES"
+  },
+  {
+    "SIC_Code": "3825",
+    "Industry_Title": "INSTRUMENTS FOR MEAS & TESTING OF ELECTRICITY & ELEC SIGNALS"
+  },
+  {
+    "SIC_Code": "3826",
+    "Industry_Title": "LABORATORY ANALYTICAL INSTRUMENTS"
+  },
+  {
+    "SIC_Code": "3827",
+    "Industry_Title": "OPTICAL INSTRUMENTS & LENSES"
+  },
+  {
+    "SIC_Code": "3829",
+    "Industry_Title": "MEASURING & CONTROLLING DEVICES, NEC"
+  },
+  {
+    "SIC_Code": "3841",
+    "Industry_Title": "SURGICAL & MEDICAL INSTRUMENTS & APPARATUS"
+  },
+  {
+    "SIC_Code": "3842",
+    "Industry_Title": "ORTHOPEDIC, PROSTHETIC & SURGICAL APPLIANCES & SUPPLIES"
+  },
+  {
+    "SIC_Code": "3843",
+    "Industry_Title": "DENTAL EQUIPMENT & SUPPLIES"
+  },
+  {
+    "SIC_Code": "3844",
+    "Industry_Title": "X-RAY APPARATUS & TUBES & RELATED IRRADIATION APPARATUS"
+  },
+  {
+    "SIC_Code": "3845",
+    "Industry_Title": "ELECTROMEDICAL & ELECTROTHERAPEUTIC APPARATUS"
+  },
+  {
+    "SIC_Code": "3851",
+    "Industry_Title": "OPHTHALMIC GOODS"
+  },
+  {
+    "SIC_Code": "3861",
+    "Industry_Title": "PHOTOGRAPHIC EQUIPMENT & SUPPLIES"
+  },
+  {
+    "SIC_Code": "3873",
+    "Industry_Title": "WATCHES, CLOCKS, CLOCKWORK OPERATED DEVICES/PARTS"
+  },
+  {
+    "SIC_Code": "3910",
+    "Industry_Title": "JEWELRY, SILVERWARE & PLATED WARE"
+  },
+  {
+    "SIC_Code": "3911",
+    "Industry_Title": "JEWELRY, PRECIOUS METAL"
+  },
+  {
+    "SIC_Code": "3931",
+    "Industry_Title": "MUSICAL INSTRUMENTS"
+  },
+  {
+    "SIC_Code": "3942",
+    "Industry_Title": "DOLLS & STUFFED TOYS"
+  },
+  {
+    "SIC_Code": "3944",
+    "Industry_Title": "GAMES, TOYS & CHILDREN'S VEHICLES (NO DOLLS & BICYCLES)"
+  },
+  {
+    "SIC_Code": "3949",
+    "Industry_Title": "SPORTING & ATHLETIC GOODS, NEC"
+  },
+  {
+    "SIC_Code": "3950",
+    "Industry_Title": "PENS, PENCILS & OTHER ARTISTS' MATERIALS"
+  },
+  {
+    "SIC_Code": "3960",
+    "Industry_Title": "COSTUME JEWELRY & NOVELTIES"
+  },
+  {
+    "SIC_Code": "3990",
+    "Industry_Title": "MISCELLANEOUS MANUFACTURING INDUSTRIES"
+  },
+  {
+    "SIC_Code": "4011",
+    "Industry_Title": "RAILROADS, LINE-HAUL OPERATING"
+  },
+  {
+    "SIC_Code": "4013",
+    "Industry_Title": "RAILROAD SWITCHING & TERMINAL ESTABLISHMENTS"
+  },
+  {
+    "SIC_Code": "4100",
+    "Industry_Title": "LOCAL & SUBURBAN TRANSIT & INTERURBAN HWY PASSENGER TRANS"
+  },
+  {
+    "SIC_Code": "4210",
+    "Industry_Title": "TRUCKING & COURIER SERVICES (NO AIR)"
+  },
+  {
+    "SIC_Code": "4213",
+    "Industry_Title": "TRUCKING (NO LOCAL)"
+  },
+  {
+    "SIC_Code": "4220",
+    "Industry_Title": "PUBLIC WAREHOUSING & STORAGE"
+  },
+  {
+    "SIC_Code": "4231",
+    "Industry_Title": "TERMINAL MAINTENANCE FACILITIES FOR MOTOR FREIGHT TRANSPORT"
+  },
+  {
+    "SIC_Code": "4400",
+    "Industry_Title": "WATER TRANSPORTATION"
+  },
+  {
+    "SIC_Code": "4412",
+    "Industry_Title": "DEEP SEA FOREIGN TRANSPORTATION OF FREIGHT"
+  },
+  {
+    "SIC_Code": "4512",
+    "Industry_Title": "AIR TRANSPORTATION, SCHEDULED"
+  },
+  {
+    "SIC_Code": "4513",
+    "Industry_Title": "AIR COURIER SERVICES"
+  },
+  {
+    "SIC_Code": "4522",
+    "Industry_Title": "AIR TRANSPORTATION, NONSCHEDULED"
+  },
+  {
+    "SIC_Code": "4581",
+    "Industry_Title": "AIRPORTS, FLYING FIELDS & AIRPORT TERMINAL SERVICES"
+  },
+  {
+    "SIC_Code": "4610",
+    "Industry_Title": "PIPE LINES (NO NATURAL GAS)"
+  },
+  {
+    "SIC_Code": "4700",
+    "Industry_Title": "TRANSPORTATION SERVICES"
+  },
+  {
+    "SIC_Code": "4731",
+    "Industry_Title": "ARRANGEMENT OF TRANSPORTATION OF FREIGHT & CARGO"
+  },
+  {
+    "SIC_Code": "4812",
+    "Industry_Title": "RADIOTELEPHONE COMMUNICATIONS"
+  },
+  {
+    "SIC_Code": "4813",
+    "Industry_Title": "TELEPHONE COMMUNICATIONS (NO RADIOTELEPHONE)"
+  },
+  {
+    "SIC_Code": "4822",
+    "Industry_Title": "TELEGRAPH & OTHER MESSAGE COMMUNICATIONS"
+  },
+  {
+    "SIC_Code": "4832",
+    "Industry_Title": "RADIO BROADCASTING STATIONS"
+  },
+  {
+    "SIC_Code": "4833",
+    "Industry_Title": "TELEVISION BROADCASTING STATIONS"
+  },
+  {
+    "SIC_Code": "4841",
+    "Industry_Title": "CABLE & OTHER PAY TELEVISION SERVICES"
+  },
+  {
+    "SIC_Code": "4899",
+    "Industry_Title": "COMMUNICATIONS SERVICES, NEC"
+  },
+  {
+    "SIC_Code": "4900",
+    "Industry_Title": "ELECTRIC, GAS & SANITARY SERVICES"
+  },
+  {
+    "SIC_Code": "4911",
+    "Industry_Title": "ELECTRIC SERVICES"
+  },
+  {
+    "SIC_Code": "4922",
+    "Industry_Title": "NATURAL GAS TRANSMISSION"
+  },
+  {
+    "SIC_Code": "4923",
+    "Industry_Title": "NATURAL GAS TRANSMISISON & DISTRIBUTION"
+  },
+  {
+    "SIC_Code": "4924",
+    "Industry_Title": "NATURAL GAS DISTRIBUTION"
+  },
+  {
+    "SIC_Code": "4931",
+    "Industry_Title": "ELECTRIC & OTHER SERVICES COMBINED"
+  },
+  {
+    "SIC_Code": "4932",
+    "Industry_Title": "GAS & OTHER SERVICES COMBINED"
+  },
+  {
+    "SIC_Code": "4941",
+    "Industry_Title": "WATER SUPPLY"
+  },
+  {
+    "SIC_Code": "4950",
+    "Industry_Title": "SANITARY SERVICES"
+  },
+  {
+    "SIC_Code": "4953",
+    "Industry_Title": "REFUSE SYSTEMS"
+  },
+  {
+    "SIC_Code": "4955",
+    "Industry_Title": "HAZARDOUS WASTE MANAGEMENT"
+  },
+  {
+    "SIC_Code": "4961",
+    "Industry_Title": "STEAM & AIR-CONDITIONING SUPPLY"
+  },
+  {
+    "SIC_Code": "4991",
+    "Industry_Title": "COGENERATION SERVICES & SMALL POWER PRODUCERS"
+  },
+  {
+    "SIC_Code": "5000",
+    "Industry_Title": "WHOLESALE-DURABLE GOODS"
+  },
+  {
+    "SIC_Code": "5010",
+    "Industry_Title": "WHOLESALE-MOTOR VEHICLES & MOTOR VEHICLE PARTS & SUPPLIES"
+  },
+  {
+    "SIC_Code": "5013",
+    "Industry_Title": "WHOLESALE-MOTOR VEHICLE SUPPLIES & NEW PARTS"
+  },
+  {
+    "SIC_Code": "5020",
+    "Industry_Title": "WHOLESALE-FURNITURE & HOME FURNISHINGS"
+  },
+  {
+    "SIC_Code": "5030",
+    "Industry_Title": "WHOLESALE-LUMBER & OTHER CONSTRUCTION MATERIALS"
+  },
+  {
+    "SIC_Code": "5031",
+    "Industry_Title": "WHOLESALE-LUMBER, PLYWOOD, MILLWORK & WOOD PANELS"
+  },
+  {
+    "SIC_Code": "5040",
+    "Industry_Title": "WHOLESALE-PROFESSIONAL & COMMERCIAL EQUIPMENT & SUPPLIES"
+  },
+  {
+    "SIC_Code": "5045",
+    "Industry_Title": "WHOLESALE-COMPUTERS & PERIPHERAL EQUIPMENT & SOFTWARE"
+  },
+  {
+    "SIC_Code": "5047",
+    "Industry_Title": "WHOLESALE-MEDICAL, DENTAL & HOSPITAL EQUIPMENT & SUPPLIES"
+  },
+  {
+    "SIC_Code": "5050",
+    "Industry_Title": "WHOLESALE-METALS & MINERALS (NO PETROLEUM)"
+  },
+  {
+    "SIC_Code": "5051",
+    "Industry_Title": "WHOLESALE-METALS SERVICE CENTERS & OFFICES"
+  },
+  {
+    "SIC_Code": "5063",
+    "Industry_Title": "WHOLESALE-ELECTRICAL APPARATUS & EQUIPMENT, WIRING SUPPLIES"
+  },
+  {
+    "SIC_Code": "5064",
+    "Industry_Title": "WHOLESALE-ELECTRICAL APPLIANCES, TV & RADIO SETS"
+  },
+  {
+    "SIC_Code": "5065",
+    "Industry_Title": "WHOLESALE-ELECTRONIC PARTS & EQUIPMENT, NEC"
+  },
+  {
+    "SIC_Code": "5070",
+    "Industry_Title": "WHOLESALE-HARDWARE & PLUMBING & HEATING EQUIPMENT & SUPPLIES"
+  },
+  {
+    "SIC_Code": "5072",
+    "Industry_Title": "WHOLESALE-HARDWARE"
+  },
+  {
+    "SIC_Code": "5080",
+    "Industry_Title": "WHOLESALE-MACHINERY, EQUIPMENT & SUPPLIES"
+  },
+  {
+    "SIC_Code": "5082",
+    "Industry_Title": "WHOLESALE-CONSTRUCTION & MINING (NO PETRO) MACHINERY & EQUIP"
+  },
+  {
+    "SIC_Code": "5084",
+    "Industry_Title": "WHOLESALE-INDUSTRIAL MACHINERY & EQUIPMENT"
+  },
+  {
+    "SIC_Code": "5090",
+    "Industry_Title": "WHOLESALE-MISC DURABLE GOODS"
+  },
+  {
+    "SIC_Code": "5094",
+    "Industry_Title": "WHOLESALE-JEWELRY, WATCHES, PRECIOUS STONES & METALS"
+  },
+  {
+    "SIC_Code": "5099",
+    "Industry_Title": "WHOLESALE-DURABLE GOODS, NEC"
+  },
+  {
+    "SIC_Code": "5110",
+    "Industry_Title": "WHOLESALE-PAPER & PAPER PRODUCTS"
+  },
+  {
+    "SIC_Code": "5122",
+    "Industry_Title": "WHOLESALE-DRUGS, PROPRIETARIES & DRUGGISTS' SUNDRIES"
+  },
+  {
+    "SIC_Code": "5130",
+    "Industry_Title": "WHOLESALE-APPAREL, PIECE GOODS & NOTIONS"
+  },
+  {
+    "SIC_Code": "5140",
+    "Industry_Title": "WHOLESALE-GROCERIES & RELATED PRODUCTS"
+  },
+  {
+    "SIC_Code": "5141",
+    "Industry_Title": "WHOLESALE-GROCERIES, GENERAL LINE"
+  },
+  {
+    "SIC_Code": "5150",
+    "Industry_Title": "WHOLESALE-FARM PRODUCT RAW MATERIALS"
+  },
+  {
+    "SIC_Code": "5160",
+    "Industry_Title": "WHOLESALE-CHEMICALS & ALLIED PRODUCTS"
+  },
+  {
+    "SIC_Code": "5171",
+    "Industry_Title": "WHOLESALE-PETROLEUM BULK STATIONS & TERMINALS"
+  },
+  {
+    "SIC_Code": "5172",
+    "Industry_Title": "WHOLESALE-PETROLEUM & PETROLEUM PRODUCTS (NO BULK STATIONS)"
+  },
+  {
+    "SIC_Code": "5180",
+    "Industry_Title": "WHOLESALE-BEER, WINE & DISTILLED ALCOHOLIC BEVERAGES"
+  },
+  {
+    "SIC_Code": "5190",
+    "Industry_Title": "WHOLESALE-MISCELLANEOUS NONDURABLE GOODS"
+  },
+  {
+    "SIC_Code": "5200",
+    "Industry_Title": "RETAIL-BUILDING MATERIALS, HARDWARE, GARDEN SUPPLY"
+  },
+  {
+    "SIC_Code": "5211",
+    "Industry_Title": "RETAIL-LUMBER & OTHER BUILDING MATERIALS DEALERS"
+  },
+  {
+    "SIC_Code": "5271",
+    "Industry_Title": "RETAIL-MOBILE HOME DEALERS"
+  },
+  {
+    "SIC_Code": "5311",
+    "Industry_Title": "RETAIL-DEPARTMENT STORES"
+  },
+  {
+    "SIC_Code": "5331",
+    "Industry_Title": "RETAIL-VARIETY STORES"
+  },
+  {
+    "SIC_Code": "5399",
+    "Industry_Title": "RETAIL-MISC GENERAL MERCHANDISE STORES"
+  },
+  {
+    "SIC_Code": "5400",
+    "Industry_Title": "RETAIL-FOOD STORES"
+  },
+  {
+    "SIC_Code": "5411",
+    "Industry_Title": "RETAIL-GROCERY STORES"
+  },
+  {
+    "SIC_Code": "5412",
+    "Industry_Title": "RETAIL-CONVENIENCE STORES"
+  },
+  {
+    "SIC_Code": "5500",
+    "Industry_Title": "RETAIL-AUTO DEALERS & GASOLINE STATIONS"
+  },
+  {
+    "SIC_Code": "5531",
+    "Industry_Title": "RETAIL-AUTO & HOME SUPPLY STORES"
+  },
+  {
+    "SIC_Code": "5600",
+    "Industry_Title": "RETAIL-APPAREL & ACCESSORY STORES"
+  },
+  {
+    "SIC_Code": "5621",
+    "Industry_Title": "RETAIL-WOMEN'S CLOTHING STORES"
+  },
+  {
+    "SIC_Code": "5651",
+    "Industry_Title": "RETAIL-FAMILY CLOTHING STORES"
+  },
+  {
+    "SIC_Code": "5661",
+    "Industry_Title": "RETAIL-SHOE STORES"
+  },
+  {
+    "SIC_Code": "5700",
+    "Industry_Title": "RETAIL-HOME FURNITURE, FURNISHINGS & EQUIPMENT STORES"
+  },
+  {
+    "SIC_Code": "5712",
+    "Industry_Title": "RETAIL-FURNITURE STORES"
+  },
+  {
+    "SIC_Code": "5731",
+    "Industry_Title": "RETAIL-RADIO, TV & CONSUMER ELECTRONICS STORES"
+  },
+  {
+    "SIC_Code": "5734",
+    "Industry_Title": "RETAIL-COMPUTER & COMPUTER SOFTWARE STORES"
+  },
+  {
+    "SIC_Code": "5735",
+    "Industry_Title": "RETAIL-RECORD & PRERECORDED TAPE STORES"
+  },
+  {
+    "SIC_Code": "5810",
+    "Industry_Title": "RETAIL-EATING & DRINKING PLACES"
+  },
+  {
+    "SIC_Code": "5812",
+    "Industry_Title": "RETAIL-EATING PLACES"
+  },
+  {
+    "SIC_Code": "5900",
+    "Industry_Title": "RETAIL-MISCELLANEOUS RETAIL"
+  },
+  {
+    "SIC_Code": "5912",
+    "Industry_Title": "RETAIL-DRUG STORES AND PROPRIETARY STORES"
+  },
+  {
+    "SIC_Code": "5940",
+    "Industry_Title": "RETAIL-MISCELLANEOUS SHOPPING GOODS STORES"
+  },
+  {
+    "SIC_Code": "5944",
+    "Industry_Title": "RETAIL-JEWELRY STORES"
+  },
+  {
+    "SIC_Code": "5945",
+    "Industry_Title": "RETAIL-HOBBY, TOY & GAME SHOPS"
+  },
+  {
+    "SIC_Code": "5960",
+    "Industry_Title": "RETAIL-NONSTORE RETAILERS"
+  },
+  {
+    "SIC_Code": "5961",
+    "Industry_Title": "RETAIL-CATALOG & MAIL-ORDER HOUSES"
+  },
+  {
+    "SIC_Code": "5990",
+    "Industry_Title": "RETAIL-RETAIL STORES, NEC"
+  },
+  {
+    "SIC_Code": "6021",
+    "Industry_Title": "NATIONAL COMMERCIAL BANKS"
+  },
+  {
+    "SIC_Code": "6022",
+    "Industry_Title": "STATE COMMERCIAL BANKS"
+  },
+  {
+    "SIC_Code": "6029",
+    "Industry_Title": "COMMERCIAL BANKS, NEC"
+  },
+  {
+    "SIC_Code": "6035",
+    "Industry_Title": "SAVINGS INSTITUTION, FEDERALLY CHARTERED"
+  },
+  {
+    "SIC_Code": "6036",
+    "Industry_Title": "SAVINGS INSTITUTIONS, NOT FEDERALLY CHARTERED"
+  },
+  {
+    "SIC_Code": "6099",
+    "Industry_Title": "FUNCTIONS RELATED TO DEPOSITORY BANKING, NEC"
+  },
+  {
+    "SIC_Code": "6111",
+    "Industry_Title": "FEDERAL & FEDERALLY-SPONSORED CREDIT AGENCIES"
+  },
+  {
+    "SIC_Code": "6141",
+    "Industry_Title": "PERSONAL CREDIT INSTITUTIONS"
+  },
+  {
+    "SIC_Code": "6153",
+    "Industry_Title": "SHORT-TERM BUSINESS CREDIT INSTITUTIONS"
+  },
+  {
+    "SIC_Code": "6159",
+    "Industry_Title": "MISCELLANEOUS BUSINESS CREDIT INSTITUTION"
+  },
+  {
+    "SIC_Code": "6162",
+    "Industry_Title": "MORTGAGE BANKERS & LOAN CORRESPONDENTS"
+  },
+  {
+    "SIC_Code": "6163",
+    "Industry_Title": "LOAN BROKERS"
+  },
+  {
+    "SIC_Code": "6172",
+    "Industry_Title": "FINANCE LESSORS"
+  },
+  {
+    "SIC_Code": "6189",
+    "Industry_Title": "ASSET-BACKED SECURITIES"
+  },
+  {
+    "SIC_Code": "6199",
+    "Industry_Title": "FINANCE SERVICES"
+  },
+  {
+    "SIC_Code": "6200",
+    "Industry_Title": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+  },
+  {
+    "SIC_Code": "6211",
+    "Industry_Title": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+  },
+  {
+    "SIC_Code": "6221",
+    "Industry_Title": "COMMODITY CONTRACTS BROKERS & DEALERS"
+  },
+  {
+    "SIC_Code": "6282",
+    "Industry_Title": "INVESTMENT ADVICE"
+  },
+  {
+    "SIC_Code": "6311",
+    "Industry_Title": "LIFE INSURANCE"
+  },
+  {
+    "SIC_Code": "6321",
+    "Industry_Title": "ACCIDENT & HEALTH INSURANCE"
+  },
+  {
+    "SIC_Code": "6324",
+    "Industry_Title": "HOSPITAL & MEDICAL SERVICE PLANS"
+  },
+  {
+    "SIC_Code": "6331",
+    "Industry_Title": "FIRE, MARINE & CASUALTY INSURANCE"
+  },
+  {
+    "SIC_Code": "6351",
+    "Industry_Title": "SURETY INSURANCE"
+  },
+  {
+    "SIC_Code": "6361",
+    "Industry_Title": "TITLE INSURANCE"
+  },
+  {
+    "SIC_Code": "6399",
+    "Industry_Title": "INSURANCE CARRIERS, NEC"
+  },
+  {
+    "SIC_Code": "6411",
+    "Industry_Title": "INSURANCE AGENTS, BROKERS & SERVICE"
+  },
+  {
+    "SIC_Code": "6500",
+    "Industry_Title": "REAL ESTATE"
+  },
+  {
+    "SIC_Code": "6510",
+    "Industry_Title": "REAL ESTATE OPERATORS (NO DEVELOPERS) & LESSORS"
+  },
+  {
+    "SIC_Code": "6512",
+    "Industry_Title": "OPERATORS OF NONRESIDENTIAL BUILDINGS"
+  },
+  {
+    "SIC_Code": "6513",
+    "Industry_Title": "OPERATORS OF APARTMENT BUILDINGS"
+  },
+  {
+    "SIC_Code": "6519",
+    "Industry_Title": "LESSORS OF REAL PROPERTY, NEC"
+  },
+  {
+    "SIC_Code": "6531",
+    "Industry_Title": "REAL ESTATE AGENTS & MANAGERS (FOR OTHERS)"
+  },
+  {
+    "SIC_Code": "6532",
+    "Industry_Title": "REAL ESTATE DEALERS (FOR THEIR OWN ACCOUNT)"
+  },
+  {
+    "SIC_Code": "6552",
+    "Industry_Title": "LAND SUBDIVIDERS & DEVELOPERS (NO CEMETERIES)"
+  },
+  {
+    "SIC_Code": "6770",
+    "Industry_Title": "BLANK CHECKS"
+  },
+  {
+    "SIC_Code": "6792",
+    "Industry_Title": "OIL ROYALTY TRADERS"
+  },
+  {
+    "SIC_Code": "6794",
+    "Industry_Title": "PATENT OWNERS & LESSORS"
+  },
+  {
+    "SIC_Code": "6795",
+    "Industry_Title": "MINERAL ROYALTY TRADERS"
+  },
+  {
+    "SIC_Code": "6798",
+    "Industry_Title": "REAL ESTATE INVESTMENT TRUSTS"
+  },
+  {
+    "SIC_Code": "6799",
+    "Industry_Title": "INVESTORS, NEC"
+  },
+  {
+    "SIC_Code": "7000",
+    "Industry_Title": "HOTELS, ROOMING HOUSES, CAMPS & OTHER LODGING PLACES"
+  },
+  {
+    "SIC_Code": "7011",
+    "Industry_Title": "HOTELS & MOTELS"
+  },
+  {
+    "SIC_Code": "7200",
+    "Industry_Title": "SERVICES-PERSONAL SERVICES"
+  },
+  {
+    "SIC_Code": "7310",
+    "Industry_Title": "SERVICES-ADVERTISING"
+  },
+  {
+    "SIC_Code": "7311",
+    "Industry_Title": "SERVICES-ADVERTISING AGENCIES"
+  },
+  {
+    "SIC_Code": "7320",
+    "Industry_Title": "SERVICES-CONSUMER CREDIT REPORTING, COLLECTION AGENCIES"
+  },
+  {
+    "SIC_Code": "7330",
+    "Industry_Title": "SERVICES-MAILING, REPRODUCTION, COMMERCIAL ART & PHOTOGRAPHY"
+  },
+  {
+    "SIC_Code": "7331",
+    "Industry_Title": "SERVICES-DIRECT MAIL ADVERTISING SERVICES"
+  },
+  {
+    "SIC_Code": "7340",
+    "Industry_Title": "SERVICES-TO DWELLINGS & OTHER BUILDINGS"
+  },
+  {
+    "SIC_Code": "7350",
+    "Industry_Title": "SERVICES-MISCELLANEOUS EQUIPMENT RENTAL & LEASING"
+  },
+  {
+    "SIC_Code": "7359",
+    "Industry_Title": "SERVICES-EQUIPMENT RENTAL & LEASING, NEC"
+  },
+  {
+    "SIC_Code": "7361",
+    "Industry_Title": "SERVICES-EMPLOYMENT AGENCIES"
+  },
+  {
+    "SIC_Code": "7363",
+    "Industry_Title": "SERVICES-HELP SUPPLY SERVICES"
+  },
+  {
+    "SIC_Code": "7370",
+    "Industry_Title": "SERVICES-COMPUTER PROGRAMMING, DATA PROCESSING, ETC."
+  },
+  {
+    "SIC_Code": "7371",
+    "Industry_Title": "SERVICES-COMPUTER PROGRAMMING SERVICES"
+  },
+  {
+    "SIC_Code": "7372",
+    "Industry_Title": "SERVICES-PREPACKAGED SOFTWARE"
+  },
+  {
+    "SIC_Code": "7373",
+    "Industry_Title": "SERVICES-COMPUTER INTEGRATED SYSTEMS DESIGN"
+  },
+  {
+    "SIC_Code": "7374",
+    "Industry_Title": "SERVICES-COMPUTER PROCESSING & DATA PREPARATION"
+  },
+  {
+    "SIC_Code": "7377",
+    "Industry_Title": "SERVICES-COMPUTER RENTAL & LEASING"
+  },
+  {
+    "SIC_Code": "7380",
+    "Industry_Title": "SERVICES-MISCELLANEOUS BUSINESS SERVICES"
+  },
+  {
+    "SIC_Code": "7381",
+    "Industry_Title": "SERVICES-DETECTIVE, GUARD & ARMORED CAR SERVICES"
+  },
+  {
+    "SIC_Code": "7384",
+    "Industry_Title": "SERVICES-PHOTOFINISHING LABORATORIES"
+  },
+  {
+    "SIC_Code": "7385",
+    "Industry_Title": "SERVICES-TELEPHONE INTERCONNECT SYSTEMS"
+  },
+  {
+    "SIC_Code": "7389",
+    "Industry_Title": "SERVICES-BUSINESS SERVICES, NEC"
+  },
+  {
+    "SIC_Code": "7500",
+    "Industry_Title": "SERVICES-AUTOMOTIVE REPAIR, SERVICES & PARKING"
+  },
+  {
+    "SIC_Code": "7510",
+    "Industry_Title": "SERVICES-AUTO RENTAL & LEASING (NO DRIVERS)"
+  },
+  {
+    "SIC_Code": "7600",
+    "Industry_Title": "SERVICES-MISCELLANEOUS REPAIR SERVICES"
+  },
+  {
+    "SIC_Code": "7812",
+    "Industry_Title": "SERVICES-MOTION PICTURE & VIDEO TAPE PRODUCTION"
+  },
+  {
+    "SIC_Code": "7819",
+    "Industry_Title": "SERVICES-ALLIED TO MOTION PICTURE PRODUCTION"
+  },
+  {
+    "SIC_Code": "7822",
+    "Industry_Title": "SERVICES-MOTION PICTURE & VIDEO TAPE DISTRIBUTION"
+  },
+  {
+    "SIC_Code": "7829",
+    "Industry_Title": "SERVICES-ALLIED TO MOTION PICTURE DISTRIBUTION"
+  },
+  {
+    "SIC_Code": "7830",
+    "Industry_Title": "SERVICES-MOTION PICTURE THEATERS"
+  },
+  {
+    "SIC_Code": "7841",
+    "Industry_Title": "SERVICES-VIDEO TAPE RENTAL"
+  },
+  {
+    "SIC_Code": "7900",
+    "Industry_Title": "SERVICES-AMUSEMENT & RECREATION SERVICES"
+  },
+  {
+    "SIC_Code": "7948",
+    "Industry_Title": "SERVICES-RACING, INCLUDING TRACK OPERATION"
+  },
+  {
+    "SIC_Code": "7990",
+    "Industry_Title": "SERVICES-MISCELLANEOUS AMUSEMENT & RECREATION"
+  },
+  {
+    "SIC_Code": "7997",
+    "Industry_Title": "SERVICES-MEMBERSHIP SPORTS & RECREATION CLUBS"
+  },
+  {
+    "SIC_Code": "8000",
+    "Industry_Title": "SERVICES-HEALTH SERVICES"
+  },
+  {
+    "SIC_Code": "8011",
+    "Industry_Title": "SERVICES-OFFICES & CLINICS OF DOCTORS OF MEDICINE"
+  },
+  {
+    "SIC_Code": "8050",
+    "Industry_Title": "SERVICES-NURSING & PERSONAL CARE FACILITIES"
+  },
+  {
+    "SIC_Code": "8051",
+    "Industry_Title": "SERVICES-SKILLED NURSING CARE FACILITIES"
+  },
+  {
+    "SIC_Code": "8060",
+    "Industry_Title": "SERVICES-HOSPITALS"
+  },
+  {
+    "SIC_Code": "8062",
+    "Industry_Title": "SERVICES-GENERAL MEDICAL & SURGICAL HOSPITALS, NEC"
+  },
+  {
+    "SIC_Code": "8071",
+    "Industry_Title": "SERVICES-MEDICAL LABORATORIES"
+  },
+  {
+    "SIC_Code": "8082",
+    "Industry_Title": "SERVICES-HOME HEALTH CARE SERVICES"
+  },
+  {
+    "SIC_Code": "8090",
+    "Industry_Title": "SERVICES-MISC HEALTH & ALLIED SERVICES, NEC"
+  },
+  {
+    "SIC_Code": "8093",
+    "Industry_Title": "SERVICES-SPECIALTY OUTPATIENT FACILITIES, NEC"
+  },
+  {
+    "SIC_Code": "8111",
+    "Industry_Title": "SERVICES-LEGAL SERVICES"
+  },
+  {
+    "SIC_Code": "8200",
+    "Industry_Title": "SERVICES-EDUCATIONAL SERVICES"
+  },
+  {
+    "SIC_Code": "8300",
+    "Industry_Title": "SERVICES-SOCIAL SERVICES"
+  },
+  {
+    "SIC_Code": "8351",
+    "Industry_Title": "SERVICES-CHILD DAY CARE SERVICES"
+  },
+  {
+    "SIC_Code": "8600",
+    "Industry_Title": "SERVICES-MEMBERSHIP ORGANIZATIONS"
+  },
+  {
+    "SIC_Code": "8700",
+    "Industry_Title": "SERVICES-ENGINEERING, ACCOUNTING, RESEARCH, MANAGEMENT"
+  },
+  {
+    "SIC_Code": "8711",
+    "Industry_Title": "SERVICES-ENGINEERING SERVICES"
+  },
+  {
+    "SIC_Code": "8731",
+    "Industry_Title": "SERVICES-COMMERCIAL PHYSICAL & BIOLOGICAL RESEARCH"
+  },
+  {
+    "SIC_Code": "8734",
+    "Industry_Title": "SERVICES-TESTING LABORATORIES"
+  },
+  {
+    "SIC_Code": "8741",
+    "Industry_Title": "SERVICES-MANAGEMENT SERVICES"
+  },
+  {
+    "SIC_Code": "8742",
+    "Industry_Title": "SERVICES-MANAGEMENT CONSULTING SERVICES"
+  },
+  {
+    "SIC_Code": "8744",
+    "Industry_Title": "SERVICES-FACILITIES SUPPORT MANAGEMENT SERVICES"
+  },
+  {
+    "SIC_Code": "8880",
+    "Industry_Title": "AMERICAN DEPOSITARY RECEIPTS"
+  },
+  {
+    "SIC_Code": "8888",
+    "Industry_Title": "FOREIGN GOVERNMENTS"
+  },
+  {
+    "SIC_Code": "8900",
+    "Industry_Title": "SERVICES-SERVICES, NEC"
+  },
+  {
+    "SIC_Code": "9721",
+    "Industry_Title": "INTERNATIONAL AFFAIRS"
+  },
+  {
+    "SIC_Code": "9995",
+    "Industry_Title": "NON-OPERATING ESTABLISHMENTS"
+  }
+]
