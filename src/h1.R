@@ -60,13 +60,8 @@ firm_data <- pharma_panel %>%
     .groups = "drop"
   )
 
-# Model 1: Simple OLS - uni alliance count
 m1 <- lm(total_patents ~ uni_alliance_count, data = firm_data)
-
-# Model 2: Add controls for network position
 m2 <- lm(total_patents ~ uni_alliance_count + degree + betweenness, data = firm_data)
-
-# Model 3: Add country fixed effects
 m3 <- lm(total_patents ~ uni_alliance_count + degree + betweenness + nation, data = firm_data)
 
 models_cs <- list(

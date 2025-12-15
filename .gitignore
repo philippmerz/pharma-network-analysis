@@ -1,6 +1,5 @@
 .DS_Store
 data/USPTO
-data/cwurData.csv
 Output
 data/SDC_data_2021.rds
 Processed_Data
