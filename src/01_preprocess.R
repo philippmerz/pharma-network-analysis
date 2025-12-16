@@ -310,7 +310,6 @@ intermediate_data <- list(
   patents_by_org_year   = patents_by_org_year,
   patents_by_org_total  = patents_by_org_total,
   patents_by_org_wide   = patents_by_org_wide,
-  qs_matches         = qs_matches,
   config             = config
 )
 

@@ -12,7 +12,6 @@ sdc_filtered      <- data$sdc_filtered
 patents_by_org_year  <- data$patents_by_org_year
 patents_by_org_total <- data$patents_by_org_total
 patents_by_org_wide  <- data$patents_by_org_wide
-qs_matches        <- data$qs_matches
 config            <- data$config
 
 relevant_deals <- sdc_filtered %>%
@@ -38,14 +37,6 @@ edges <- sdc_filtered %>%
 
 edges_weighted <- edges %>% 
   count(from, to, name = "weight")
-
-edges_detailed <- edges %>%
-  left_join(
-    sdc_filtered %>% 
-      select(deal_number, date_announced, year, status) %>% 
-      distinct(),
-    by = "deal_number"
-  )
 
 g <- graph_from_data_frame(edges_weighted, directed = FALSE, vertices = nodes$participants)
 g <- simplify(g, remove.multiple = TRUE)
@@ -114,11 +105,8 @@ output_dir <- config$output_dir
 
 write_csv(nodes_enriched, file.path(output_dir, "nodes.csv"))
 write_csv(edges_weighted, file.path(output_dir, "edges.csv"))
-write_csv(edges_detailed, file.path(output_dir, "edges_detailed.csv"))
-write_csv(patents_by_org_year, file.path(output_dir, "patent_matches.csv"))
 write_csv(panel, file.path(output_dir, "panel.csv"))
 write_csv(summary_stats, file.path(output_dir, "stats.csv"))
-saveRDS(g, file.path(output_dir, "graph.rds"))
 
 saveRDS(
   list(graph = g, nodes = nodes_enriched, config = config),
