@@ -18,7 +18,7 @@ V(g)$patent_count  <- nodes$patent_count_total[match(V(g)$name, nodes$participan
 V(g)$is_top_uni    <- nodes$is_top_university[match(V(g)$name, nodes$participants)]
 
 V(g)$color_type <- case_when(
-  V(g)$is_top_uni == TRUE                        ~ "Top University (CWUR)",
+  V(g)$is_top_uni == TRUE                        ~ "Top University (QS)",
   V(g)$display_type == "University/Research"     ~ "University/Research",
   V(g)$display_type == "Pharma WITH Uni Ties"    ~ "Pharma WITH Uni Ties",
   V(g)$display_type == "Pharma WITHOUT Uni Ties" ~ "Pharma WITHOUT Uni Ties",
@@ -43,14 +43,14 @@ node_colors <- c(
   "Pharma WITH Uni Ties"    = "#27AE60",
   "Pharma WITHOUT Uni Ties" = "#E74C3C",
   "University/Research"     = "#3498DB",
-  "Top University (CWUR)"   = "#FFD700"
+  "Top University (QS)"     = "#FFD700"
 )
 
 node_shapes <- c(
   "Pharma WITH Uni Ties"    = 16,
   "Pharma WITHOUT Uni Ties" = 16,
   "University/Research"     = 17,
-  "Top University (CWUR)"   = 17
+  "Top University (QS)"     = 17
 )
 
 n_pharma_with    <- sum(nodes$display_type == "Pharma WITH Uni Ties")
@@ -95,7 +95,7 @@ p <- ggraph(g_tidy, layout = "fr") +
     ),
     caption = glue::glue(
       "Node size = patent count (sqrt scaled). ",
-      "Gold = Top {config$top_uni_rank} CWUR ranked universities."
+      "Gold = Top {config$top_uni_rank} QS ranked universities."
     )
   ) +
   theme_void() +

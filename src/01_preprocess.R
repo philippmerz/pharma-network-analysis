@@ -8,11 +8,12 @@ library(stringdist)
 # Configuration
 config <- list(
   # Paths
-  sdc_path        = "data/SDC_data_2021.rds",
-  sic_path        = "data/SIC_codes_mapping.json",
-  uspto_dir       = "data/USPTO",
-  cwur_path       = "data/cwurData.csv",
-  output_dir      = "Output",
+  sdc_path          = "data/SDC_data_2021.rds",
+  sic_path          = "data/SIC_codes_mapping.json",
+  uspto_dir         = "data/USPTO",
+  qs_path           = "data/qs_uni_ranking.csv",
+  manual_match_path = "data/qs_manual_overrides.csv",
+  output_dir        = "Output",
   
   # Time periods
   alliance_years  = 2015:2021,
@@ -33,7 +34,6 @@ config <- list(
   ),
   
   # SIC codes for pharma
-
   pharma_sics = c("2833", "2834", "2835", "2836")
 )
 
@@ -183,39 +183,68 @@ nodes <- bind_rows(
     name_clean = clean_org_name(participants)
   )
 
-# Match universities to CWUR rankings
-cwur_raw <- read_csv(config$cwur_path, show_col_types = FALSE)
+# Match universities to QS rankings
+qs_raw <- read_csv(config$qs_path, show_col_types = FALSE)
 
-cwur <- cwur_raw %>%
-  group_by(institution) %>%
-  filter(year == max(year)) %>%
-  ungroup() %>%
-  select(institution, country, world_rank, score, year) %>%
-  mutate(name_clean = clean_org_name(institution))
+qs <- qs_raw %>%
+  select(institution, location, Rank) %>%
+  rename(qs_rank = Rank, qs_country = location) %>%
+  mutate(
+    qs_rank = as.integer(str_extract(as.character(qs_rank), "\\d+")),
+    name_clean = clean_org_name(institution)
+  ) %>%
+  filter(!is.na(qs_rank))
 
 unis_to_match <- nodes %>%
   filter(org_type == "university") %>%
   select(participants, name_clean) %>%
   distinct()
 
-cwur_matches <- stringdist_left_join(
-  unis_to_match, cwur,
+qs_matches <- stringdist_left_join(
+  unis_to_match, qs,
   by = "name_clean", method = "jw", max_dist = config$fuzzy_max_dist
 ) %>%
   group_by(participants) %>%
-  slice_min(world_rank, n = 1, with_ties = FALSE) %>%
+  slice_min(qs_rank, n = 1, with_ties = FALSE) %>%
   ungroup() %>%
   select(
     participants, 
-    cwur_institution = institution, 
-    cwur_country = country,
-    cwur_rank = world_rank, 
-    cwur_score = score
+    qs_institution = institution, 
+    qs_country,
+    qs_rank
   )
 
+# Problem: some universities arent automatically matched. we added a manual override file,
+# (qs_manual_overrides.csv) where we specify either corrected institution names or flag
+# research institutes (which dont have QS ranks)
+if (file.exists(config$manual_match_path)) {
+  overrides <- read_csv(config$manual_match_path, show_col_types = FALSE)
+
+  research_institutes <- overrides %>% 
+    filter(is_research_institute == TRUE) %>% 
+    pull(participants)
+
+  name_corrections <- overrides %>%
+    filter(is_research_institute == FALSE, !is.na(qs_institution)) %>%
+    select(participants, qs_institution_override = qs_institution)
+
+  qs_corrected <- name_corrections %>%
+    mutate(name_clean = clean_org_name(qs_institution_override)) %>%
+    left_join(qs, by = "name_clean") %>%
+    select(participants, qs_institution = institution, qs_country, qs_rank)
+
+  qs_matches <- qs_matches %>%
+    filter(!participants %in% qs_corrected$participants) %>%
+    bind_rows(qs_corrected) %>%
+    mutate(is_research_institute = participants %in% research_institutes)
+} else {
+  qs_matches <- qs_matches %>%
+    mutate(is_research_institute = FALSE)
+}
+
 nodes <- nodes %>%
-  left_join(cwur_matches, by = "participants") %>%
-  mutate(is_top_university = !is.na(cwur_rank) & cwur_rank <= config$top_uni_rank)
+  left_join(qs_matches, by = "participants") %>%
+  mutate(is_top_university = !is.na(qs_rank) & qs_rank <= config$top_uni_rank)
 
 # Load USPTO patent data
 read_uspto_year <- function(year) {
@@ -281,11 +310,11 @@ intermediate_data <- list(
   patents_by_org_year   = patents_by_org_year,
   patents_by_org_total  = patents_by_org_total,
   patents_by_org_wide   = patents_by_org_wide,
-  cwur_matches       = cwur_matches,
+  qs_matches         = qs_matches,
   config             = config
 )
 
 saveRDS(intermediate_data, file.path(config$output_dir, "intermediate_data.rds"))
-write_csv(cwur_matches, file.path(config$output_dir, "cwur_matches.csv"))
+write_csv(qs_matches, file.path(config$output_dir, "qs_matches.csv"))
 
 cat("  Saved:", file.path(config$output_dir, "intermediate_data.rds"), "\n")

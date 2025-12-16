@@ -12,7 +12,7 @@ sdc_filtered      <- data$sdc_filtered
 patents_by_org_year  <- data$patents_by_org_year
 patents_by_org_total <- data$patents_by_org_total
 patents_by_org_wide  <- data$patents_by_org_wide
-cwur_matches      <- data$cwur_matches
+qs_matches        <- data$qs_matches
 config            <- data$config
 
 relevant_deals <- sdc_filtered %>%
@@ -83,7 +83,7 @@ panel <- expand_grid(
     nodes_enriched %>% 
       select(participants, org_type, display_type, has_uni_ties,
              uni_alliance_count, total_alliance_count, nation,
-             degree, betweenness, is_top_university, cwur_rank),
+             degree, betweenness, is_top_university, qs_rank),
     by = "participants"
   ) %>%
   mutate(patent_count = replace_na(patent_count, 0))

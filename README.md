@@ -4,5 +4,6 @@ Processes SDC and PatentsView data to do basic network analysis on whether numbe
 1. Add USPTO 2015-2021 to data/USPTO
 2. Add SDC_data_2021.rds to data
 3. Install packages
+4. Run main.R
 
-cWUR university ranking from [kaggle](https://www.kaggle.com/datasets/mylesoneill/world-university-rankings)
+QS university ranking from [kaggle](https://www.kaggle.com/datasets/jkanthony/world-university-rankings-202223)
