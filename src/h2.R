@@ -25,9 +25,7 @@ library(tibble)
 
 cat("Hypothesis Testing (H2) — QS rankings\n")
 
-# ----------------------------
 # Helpers
-# ----------------------------
 clean_org_name <- function(x) {
   x <- toupper(as.character(x))
   x <- gsub("[^A-Z0-9 ]", " ", x)
@@ -45,9 +43,7 @@ get_col <- function(df, candidates) {
   nms[idx[1]]
 }
 
-# ----------------------------
-# 0) Load inputs produced by earlier steps
-# ----------------------------
+# Load inputs produced by earlier steps
 net   <- readRDS("Output/network_data.rds")
 nodes <- net$nodes
 config <- net$config
@@ -66,9 +62,7 @@ if (!is.null(net$graph)) {
 
 panel <- read_csv("Output/panel.csv", show_col_types = FALSE)
 
-# ----------------------------
 # Ensure QS columns exist in nodes; if not, build themql from data/qs_rank.csv
-# ----------------------------
 need_qs_cols <- c("qs_rank", "qs_score", "is_top_university")
 has_qs_already <- all(need_qs_cols %in% names(nodes))
 
@@ -143,10 +137,7 @@ if (!has_qs_already) {
   cat("Saved: Output/qs_matches.csv\n")
 }
 
-# ----------------------------
-# Ensure we have the same columns H1 groups by
-# (if panel.csv is minimal, join from nodes)
-# ----------------------------
+
 need_cols <- c("participants","has_uni_ties","uni_alliance_count","total_alliance_count",
                "nation","degree","betweenness","org_type","year","patent_count")
 
@@ -168,9 +159,7 @@ if (length(missing_in_panel) > 0) {
 # Pharma panel
 pharma_panel <- panel %>% filter(org_type == "pharma")
 
-# ----------------------------
-# 1) Build tie-quality per pharma firm from university neighbors in graph (QS)
-# ----------------------------
+# build tie-quality per pharma firm from university neighbors in graph (QS)
 has_score <- "qs_score" %in% names(nodes)
 has_rank  <- "qs_rank"  %in% names(nodes)
 has_top   <- "is_top_university" %in% names(nodes)
@@ -234,13 +223,11 @@ use_score <- has_score && !all(is.na(pharma_tie_quality$tie_quality_score))
 main_x <- if (use_score) "tie_quality_score" else "tie_quality_rank_inv"
 cat("H2 main regressor:", main_x, "\n")
 
-# Merge tie quality into pharma panel
+# merge tie quality into pharma panel
 pharma_panel_h2 <- pharma_panel %>%
   left_join(pharma_tie_quality, by = "participants")
 
-# ----------------------------
 # Descriptive stats
-# ----------------------------
 cat("\n-- Descriptive Statistics (H2) --\n\n")
 
 tie_summary <- pharma_tie_quality %>%
@@ -254,9 +241,7 @@ tie_summary <- pharma_tie_quality %>%
   )
 print(tie_summary)
 
-# ----------------------------
-# Cross-sectional regression (Firm Level) — like H1
-# ----------------------------
+# Cross-sectional regression
 cat("\n-- Cross-Sectional Regression (Firm Level) --\n\n")
 
 firm_data <- pharma_panel_h2 %>%
@@ -292,9 +277,7 @@ modelsummary(
   output = "markdown"
 ) %>% print()
 
-# ----------------------------
-# Panel regression (Firm x Year) — Poisson FE (like H1)
-# ----------------------------
+# Panel regression (Firm x Year); Poisson FE (like H1)
 cat("\n-- Panel Regression (Firm x Year) --\n\n")
 
 p1 <- fepois(as.formula(paste0("patent_count ~ ", main_x, " | year")), data = pharma_panel_h2)
@@ -310,9 +293,7 @@ modelsummary(
   output = "markdown"
 ) %>% print()
 
-# ----------------------------
 # Robustness A: Linked-only sample (firms with ≥1 university partner)
-# ----------------------------
 cat("\n-- Robustness A: Linked-only sample (n_uni_partners > 0) --\n\n")
 
 pharma_panel_h2_linked <- pharma_panel_h2 %>% filter(n_uni_partners > 0)
@@ -328,9 +309,7 @@ modelsummary(
   output = "markdown"
 ) %>% print()
 
-# ----------------------------
 # Robustness B: Rank-based regressor (inverse rank)
-# ----------------------------
 cat("\n-- Robustness B: Rank-based regressor (tie_quality_rank_inv) --\n\n")
 
 p1R <- fepois(patent_count ~ tie_quality_rank_inv | year, data = pharma_panel_h2)
@@ -344,9 +323,7 @@ modelsummary(
   output = "markdown"
 ) %>% print()
 
-# ----------------------------
 # H2 Summary + Save
-# ----------------------------
 cat("\n-- H2 Test Summary --\n\n")
 
 coef_m2 <- summary(m2)$coefficients[main_x, ]
