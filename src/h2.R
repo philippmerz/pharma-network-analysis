@@ -5,11 +5,7 @@
 #   - Firm-level OLS on total patents
 #   - Panel Poisson with FE (fixest::fepois)
 #
-# QS adaptation:
-#   - Reads data/qs_rank.csv (your file with columns like "cpf score", "score scaled")
-#   - Fuzzy-matches university nodes -> QS
-#   - Builds tie-quality per pharma firm from university neighbors in graph
-#
+# QS adaptation
 # Includes FIXES:
 #   1) Robustly joins missing controls from nodes into panel if needed
 #   2) Poisson summary print uses z value + Pr(>|z|)
